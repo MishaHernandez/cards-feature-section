@@ -18,7 +18,79 @@ body {
 }
 
 /* Primary styles */
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.title {
+    font-weight: 200;
+    color: var(--very-dark-blue);
+}
+.title:nth-child(1) {
+    margin-bottom: 0;
+}
+
+.title:nth-child(2) {
+    margin-top: 0;
+}
+.title--em {
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
+
+.title,
+.subtitle {
+    text-align: center;
+}
+
+.card {
+    padding: 2rem;
+    margin-bottom: 1rem;
+    /* test */
+    border-radius: 10px;
+    box-shadow: 0 10px 16px var(--very-light-gray);
+}
+
+.card__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: var(--very-dark-blue);
+}
+
+.card__content {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: var(--grayish-blue);
+}
+
+.card__img {
+    text-align: right;
+}
+
+.card:nth-child(1) {
+    border-top: 4px solid var(--cyan);
+}
+
+.card:nth-child(2) {
+    border-top: 4px solid var(--red);
+}
+
+.card:nth-child(3) {
+    border-top: 4px solid var(--orange);
+}
+
+.card:nth-child(4) {
+    border-top: 4px solid var(--blue);
+}
 
 /* secundary classes */
 .attribution {
